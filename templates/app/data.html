@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        /* Style for the images */
+        img {
+            max-width: 100%; /* Ensure images don't exceed their container */
+            display: block; /* Remove extra spacing below the image */
+            margin: 0 auto; /* Center the images horizontally */
+            border: 1px solid #ccc; /* Add a border around the images */
+            padding: 10px; /* Add some padding around the images */
+        }
+    </style>
+</head>
+<body>
+    <img src="data:image/png;base64,{{ graph }}" alt="Matplotlib Graph" class="blog-image">
+</body>
+</html>

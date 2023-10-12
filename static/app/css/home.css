@@ -1,0 +1,10 @@
+/* Custom CSS for the navigation bar */
+.navbar {
+    background-color: black;
+    /* Set the background color to black */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    /* Set the text color to white */
+}
